@@ -73,7 +73,7 @@ const Header = () => {
       <div className="mt-8 mb-[10px] px-4 xl:ml-[340px] md:ml-[120px] md:text-[18px] flex flex-wrap justify-center md:gap-10 md:justify-start gap-6 text-base font-semibold max-w-screen-xl mx-auto">
         <div className="hover:text-[#FA5C98] cursor-pointer">
         <NavLink
-  to="/Online_Store"
+  to="/"
   className={({ isActive }) =>
     isActive ? 'text-[#FA5C98] font-semibold' :  'text-gray-700'
   }
@@ -85,7 +85,7 @@ const Header = () => {
         <div className="relative group inline-block text-left">
      
         <NavLink
-  to="/Online_Store"
+  to="/"
   className={({ isActive }) =>
     isActive ? 'text-gray-700' : 'text-[#FA5C98] font-semibold'
   }
