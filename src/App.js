@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Home" element={<Main/>} />         
+        <Route path="/Online_Store" element={<Main/>} />         
         <Route path="/header" element={<Header />} />   
         <Route path="/second" element={<Second />} />  
         <Route path="/footer" element={< Footer/>} />  
