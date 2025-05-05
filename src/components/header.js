@@ -41,7 +41,7 @@ const Header = () => {
         </Link>
 
         <div className="flex-1 w-full md:w-[600px] h-[49px] flex items-center border border-gray-300 rounded-lg shadow-sm bg-white">
-        <div className="font-manrope flex items-center gap-1 px-2 bg-[#FA5C98] text-white w-[120px] sm:w-[110px] md:w-[110px] h-[49px] rounded sm:h-[44px] sm:px-2">
+        <div className="font-manrope flex items-center gap-1 px-2 bg-[#FA5C98] text-white w-[120px] sm:w-[130px] md:w-[110px] h-[49px] rounded sm:h-[44px] sm:px-2">
   <img src={locationicon} alt="location" className="w-4 sm:w-3" />
   <div className="flex flex-col leading-tight">
     <span className="text-[14px] sm:text-[12px] font-medium">Deliver to</span>
@@ -86,7 +86,7 @@ const Header = () => {
         <div className="relative group inline-block text-left">
      
         <NavLink
-  to="/"
+  to=""
   className={({ isActive }) =>
     isActive ? 'text-gray-700' : 'text-[#FA5C98] font-semibold'
   }
