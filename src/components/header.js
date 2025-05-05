@@ -41,11 +41,11 @@ const Header = () => {
         </Link>
 
         <div className="flex-1 w-full md:w-[600px] h-[49px] flex items-center border border-gray-300 rounded-lg shadow-sm bg-white">
-          <div className="font-manrope flex items-center gap-1 px-2 bg-[#FA5C98] text-white w-[120px] h-[49px] rounded">
+          <div className="font-manrope flex items-center gap-1 px-2 bg-[#FA5C98] text-white md:w-[110px] sm:w-[110px] w-[120px] h-[49px] rounded">
             <img src={locationicon} alt="location" className="" />
             <div className="flex flex-col leading-tight">
-              <span className="text-[15px] font-medium">Deliver to</span>
-              <span className="text-[15px]">110094</span>
+              <span className="text-[15px]  font-medium">Deliver to</span>
+              <span className="text-[15px] ">110094</span>
             </div>
           </div>
 
