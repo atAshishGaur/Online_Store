@@ -23,9 +23,7 @@ function App() {
         <Route path="/footer" element={< Footer/>} />  
         <Route path="/Products/jar-cones" element={< Products/>} />  
         <Route path="/Products/jar-cones/Product-Detail" element={< ProductDeatil/>} />  
-        {/* Add more routes below as needed */}
-        {/* <Route path="/login" element={<Login />} /> */}
-        {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+      
       </Routes>
     </Router>
   );
